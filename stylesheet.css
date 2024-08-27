@@ -1,15 +1,47 @@
 html{
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 }
 
 body{
 }
 
-header>ul>li{
-    
+header{
+    height: 20vh;
+}
+
+#headerRibbon{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    border: grey solid 2px;
+    padding: 1em 0;
+    border-radius: 1em;
+}
+
+#headerRibbon>li{
+    list-style-type: none;
 }
 
 #helloSection{
     text-align: center;
+    margin-top: 6em;
+    height: 60vh;
+}
+
+#myName{
+    font-size: 1.5em;
+}
+
+#myRole{
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 3em;
+    margin-left: 2em;
 }
